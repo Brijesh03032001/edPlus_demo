@@ -11,7 +11,7 @@ variable "project_name" {
 }
 
 variable "bucket_name" {
-  description = "S3 bucket name for static website hosting (must be globally unique)"
+  description = "S3 bucket name prefix (random suffix will be added automatically)"
   type        = string
 }
 
